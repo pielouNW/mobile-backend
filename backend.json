@@ -75,7 +75,7 @@
         "type": "projection"
       }
     ],
-    "pipeline": "ImageAudioTextToText",
+    "pipeline": "imageAudioTextToText",
     "tags": [
       "Powerful"
     ]
