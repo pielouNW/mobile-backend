@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "author": "Alibaba Cloud",
+    "image": "alibaba.png",
+    "country": "china",
+    "description": "The organization behind Qwen, a powerful family of LLM.",
+    "families": [
+      {
+        "name": "Qwen3",
+        "models": [
+          {
+            "id": 1,
+            "modelName": "Qwen3 4B Q4 K M",
+            "modelSizeGB": 2.5,
+            "parameterCountBillions": 4,
+            "author": "Qwen",
+            "family": "Qwen3",
+            "paths": [{"modelPath": "https://huggingface.co/NobodyWho/Qwen_Qwen3-4B-GGUF/resolve/main/Qwen_Qwen3-4B-Q4_K_M.gguf", "fileName": "Qwen_Qwen3-4B-Q4_K_M.gguf"}],
+            "pipeline": "textGeneration",
+            "tags": ["Thinking"]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "author": "Mistral AI",
+    "image": "mistral.png",
+    "country": "france",
+    "description": "A European lab focusing LLM on efficiency, low latency and reducing inference costs."
+  }
+]
