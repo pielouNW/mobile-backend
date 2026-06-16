@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "modelName": "Qwen3",
-    "modelSizeGB": 0.4,
+    "name": "Qwen3",
+    "sizeGB": 0.4,
     "parameterCountBillions": 4,
     "author": "Qwen",
     "family": "Qwen3",
@@ -23,8 +23,8 @@
   },
   {
     "id": 2,
-    "modelName": "Qwen3",
-    "modelSizeGB": 2.5,
+    "name": "Qwen3",
+    "sizeGB": 2.5,
     "parameterCountBillions": 4,
     "author": "Qwen",
     "family": "Qwen3",
@@ -45,8 +45,8 @@
   },
   {
     "id": 3,
-    "modelName": "LFM2",
-    "modelSizeGB": 0.4,
+    "name": "LFM2",
+    "sizeGB": 0.4,
     "parameterCountBillions": 0.7,
     "author": "Liquid AI",
     "family": "LFM2",
@@ -67,8 +67,8 @@
   },
   {
     "id": 4,
-    "modelName": "Gemma 4",
-    "modelSizeGB": 3.4,
+    "name": "Gemma 4",
+    "sizeGB": 3.4,
     "parameterCountBillions": 5,
     "author": "Google",
     "family": "Gemma 4",
