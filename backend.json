@@ -84,7 +84,7 @@
       {
         "url": "https://huggingface.co/unsloth/gemma-4-E2B-it-GGUF/resolve/main/mmproj-BF16.gguf",
         "fileName": "mmproj-BF16.gguf",
-        "type": "projection"
+        "type": "projection-model"
       }
     ],
     "pipeline": "imageAudioTextToText",
