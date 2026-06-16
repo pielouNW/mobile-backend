@@ -9,7 +9,7 @@
     "thinking": true,
     "imageIngestion": false,
     "audioIngestion": false,
-    "downloadLinks": [
+    "parts": [
       {
         "url": "https://huggingface.co/NobodyWho/Qwen_Qwen3-0.6B-GGUF/resolve/main/Qwen_Qwen3-0.6B-Q4_K_M.gguf",
         "fileName": "Qwen_Qwen3-0.6B-Q4_K_M.gguf",
@@ -32,7 +32,7 @@
     "thinking": true,
     "imageIngestion": false,
     "audioIngestion": false,
-    "downloadLinks": [
+    "parts": [
       {
         "url": "https://huggingface.co/NobodyWho/Qwen_Qwen3-4B-GGUF/resolve/main/Qwen_Qwen3-4B-Q4_K_M.gguf",
         "fileName": "Qwen_Qwen3-4B-Q4_K_M.gguf",
@@ -55,7 +55,7 @@
     "thinking": false,
     "imageIngestion": false,
     "audioIngestion": false,
-    "downloadLinks": [
+    "parts": [
       {
         "url": "https://huggingface.co/unsloth/LFM2-700M-GGUF/resolve/main/LFM2-700M-Q3_K_M.gguf",
         "fileName": "LFM2-700M-Q3_K_M.gguf",
@@ -78,7 +78,7 @@
     "thinking": true,
     "imageIngestion": true,
     "audioIngestion": true,
-    "downloadLinks": [
+    "parts": [
       {
         "url": "https://huggingface.co/unsloth/gemma-4-E2B-it-GGUF/resolve/main/gemma-4-E2B-it-Q3_K_S.gguf",
         "fileName": "gemma-4-E2B-it-Q3_K_S.gguf",
