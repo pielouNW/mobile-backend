@@ -125,5 +125,34 @@
     "tags": [
       "Cutting edge"
     ]
+  },
+  {
+    "id": 6,
+    "name": "LFM2.5 Audio",
+    "sizeGB": 0.9,
+    "parameterCountBillions": 1.5,
+    "author": "Liquid AI",
+    "family": "LFM2.5",
+    "languages": ["English", "Arabic", "Chinese", "French", "German", "Japanese", "Korean", "Spanish"],
+    "thinking": false,
+    "huggingfaceUrl": "https://huggingface.co/LiquidAI/LFM2.5-Audio-1.5B-GGUF",
+    "parts": [
+      {
+        "url": "https://huggingface.co/LiquidAI/LFM2.5-Audio-1.5B-GGUF/resolve/main/LFM2.5-Audio-1.5B-Q4_0.gguf",
+        "fileName": "LFM2.5-Audio-1.5B-Q4_0.gguf",
+        "type": "chat-model",
+        "sizeGB": 0.7
+      },
+      {
+        "url": "https://huggingface.co/LiquidAI/LFM2.5-Audio-1.5B-GGUF/resolve/main/mmproj-LFM2.5-Audio-1.5B-Q4_0.gguf",
+        "fileName": "mmproj-LFM2.5-Audio-1.5B-Q4_0.gguf",
+        "type": "projection-model",
+        "sizeGB": 0.2
+      }
+    ],
+    "pipeline": "audioTextToText",
+    "tags": [
+      "New"
+    ]
   }
 ]
