@@ -93,6 +93,7 @@
       }
     ],
     "pipeline": "imageAudioTextToText",
+    "supportedFileFormat": ["jpeg", "jpg", "png", "mp3", "wav"],
     "tags": [
       "Powerful"
     ]
@@ -122,8 +123,9 @@
       }
     ],
     "pipeline": "imageTextToText",
+    "supportedFileFormat": ["jpeg", "jpg", "png"],
     "tags": [
-      "Cutting edge"
+      "New"
     ]
   },
   {
@@ -151,6 +153,7 @@
       }
     ],
     "pipeline": "audioTextToText",
+    "supportedFileFormat": ["mp3", "wav"],
     "tags": [
       "New"
     ]
