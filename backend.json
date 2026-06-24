@@ -8,8 +8,6 @@
     "family": "Qwen3",
     "languages": ["English", "French", "Portuguese", "German", "Romanian", "Swedish", "Danish", "Bulgarian", "Russian", "Czech", "Greek", "Ukrainian", "Spanish", "Dutch", "Slovak", "Croatian", "Polish", "Lithuanian", "Norwegian Bokmål", "Norwegian Nynorsk", "Persian", "Slovenian", "Gujarati", "Latvian", "Italian", "Occitan", "Nepali", "Marathi", "Belarusian", "Serbian", "Luxembourgish", "Venetian", "Assamese", "Welsh", "Silesian", "Asturian", "Chhattisgarhi", "Awadhi", "Maithili", "Bhojpuri", "Sindhi", "Irish", "Faroese", "Hindi", "Punjabi", "Bengali", "Oriya", "Tajik", "Eastern Yiddish", "Lombard", "Ligurian", "Sicilian", "Friulian", "Sardinian", "Galician", "Catalan", "Icelandic", "Tosk Albanian", "Limburgish", "Dari", "Afrikaans", "Macedonian", "Sinhala", "Urdu", "Magahi", "Bosnian", "Armenian", "Chinese", "Burmese", "Arabic", "Hebrew", "Maltese", "Indonesian", "Malay", "Tagalog", "Cebuano", "Javanese", "Sundanese", "Minangkabau", "Balinese", "Banjar", "Pangasinan", "Iloko", "Waray", "Tamil", "Telugu", "Kannada", "Malayalam", "Turkish", "North Azerbaijani", "Northern Uzbek", "Kazakh", "Bashkir", "Tatar", "Thai", "Lao", "Finnish", "Estonian", "Hungarian", "Vietnamese", "Khmer", "Japanese", "Korean", "Georgian", "Basque", "Haitian", "Papiamento", "Kabuverdianu", "Tok Pisin", "Swahili"],
     "thinking": true,
-    "imageIngestion": false,
-    "audioIngestion": false,
     "huggingfaceUrl": "https://huggingface.co/NobodyWho/Qwen_Qwen3-0.6B-GGUF",
     "parts": [
       {
@@ -33,8 +31,6 @@
     "family": "Qwen3",
     "languages": ["English", "French", "Portuguese", "German", "Romanian", "Swedish", "Danish", "Bulgarian", "Russian", "Czech", "Greek", "Ukrainian", "Spanish", "Dutch", "Slovak", "Croatian", "Polish", "Lithuanian", "Norwegian Bokmål", "Norwegian Nynorsk", "Persian", "Slovenian", "Gujarati", "Latvian", "Italian", "Occitan", "Nepali", "Marathi", "Belarusian", "Serbian", "Luxembourgish", "Venetian", "Assamese", "Welsh", "Silesian", "Asturian", "Chhattisgarhi", "Awadhi", "Maithili", "Bhojpuri", "Sindhi", "Irish", "Faroese", "Hindi", "Punjabi", "Bengali", "Oriya", "Tajik", "Eastern Yiddish", "Lombard", "Ligurian", "Sicilian", "Friulian", "Sardinian", "Galician", "Catalan", "Icelandic", "Tosk Albanian", "Limburgish", "Dari", "Afrikaans", "Macedonian", "Sinhala", "Urdu", "Magahi", "Bosnian", "Armenian", "Chinese", "Burmese", "Arabic", "Hebrew", "Maltese", "Indonesian", "Malay", "Tagalog", "Cebuano", "Javanese", "Sundanese", "Minangkabau", "Balinese", "Banjar", "Pangasinan", "Iloko", "Waray", "Tamil", "Telugu", "Kannada", "Malayalam", "Turkish", "North Azerbaijani", "Northern Uzbek", "Kazakh", "Bashkir", "Tatar", "Thai", "Lao", "Finnish", "Estonian", "Hungarian", "Vietnamese", "Khmer", "Japanese", "Korean", "Georgian", "Basque", "Haitian", "Papiamento", "Kabuverdianu", "Tok Pisin", "Swahili"],
     "thinking": true,
-    "imageIngestion": false,
-    "audioIngestion": false,
     "huggingfaceUrl": "https://huggingface.co/NobodyWho/Qwen_Qwen3-4B-GGUF",
     "parts": [
       {
@@ -58,8 +54,6 @@
     "family": "LFM2.5",
     "languages": ["English", "Arabic", "Chinese", "French", "German", "Japanese", "Korean", "Spanish"],
     "thinking": false,
-    "imageIngestion": false,
-    "audioIngestion": false,
     "huggingfaceUrl": "https://huggingface.co/NobodyWho/LFM2.5-1.2B-Instruct-GGUF",
     "parts": [
       {
@@ -83,8 +77,6 @@
     "family": "Gemma 4",
     "languages": ["English", "French", "Portuguese", "German", "Romanian", "Swedish", "Danish", "Bulgarian", "Russian", "Czech", "Greek", "Ukrainian", "Spanish", "Dutch", "Slovak", "Croatian", "Polish", "Lithuanian", "Norwegian Bokmål", "Norwegian Nynorsk", "Persian", "Slovenian", "Gujarati", "Latvian", "Italian", "Occitan", "Nepali", "Marathi", "Belarusian", "Serbian", "Luxembourgish", "Venetian", "Assamese", "Welsh", "Silesian", "Asturian", "Chhattisgarhi", "Awadhi", "Maithili", "Bhojpuri", "Sindhi", "Irish", "Faroese", "Hindi", "Punjabi", "Bengali", "Oriya", "Tajik", "Eastern Yiddish", "Lombard", "Ligurian", "Sicilian", "Friulian", "Sardinian", "Galician", "Catalan", "Icelandic", "Tosk Albanian", "Limburgish", "Dari", "Afrikaans", "Macedonian", "Sinhala", "Urdu", "Magahi", "Bosnian", "Armenian", "Chinese", "Burmese", "Arabic", "Hebrew", "Maltese", "Indonesian", "Malay", "Tagalog", "Cebuano", "Javanese", "Sundanese", "Minangkabau", "Balinese", "Banjar", "Pangasinan", "Iloko", "Waray", "Tamil", "Telugu", "Kannada", "Malayalam", "Turkish", "North Azerbaijani", "Northern Uzbek", "Kazakh", "Bashkir", "Tatar", "Thai", "Lao", "Finnish", "Estonian", "Hungarian", "Vietnamese", "Khmer", "Japanese", "Korean", "Georgian", "Basque", "Haitian", "Papiamento", "Kabuverdianu", "Tok Pisin", "Swahili"],
     "thinking": true,
-    "imageIngestion": true,
-    "audioIngestion": true,
     "huggingfaceUrl": "https://huggingface.co/NobodyWho/Google_Gemma4-E2B-GGUF/tree/main",
     "parts": [
       {
@@ -101,6 +93,7 @@
       }
     ],
     "pipeline": "imageAudioTextToText",
+    "supportedFileFormat": ["jpeg", "jpg", "png", "mp3", "wav"],
     "tags": [
       "Powerful"
     ]
@@ -108,14 +101,12 @@
   {
     "id": 5,
     "name": "Qwen3.5",
-    "sizeGB": 0.4,
+    "sizeGB": 0.7,
     "parameterCountBillions": 0.8,
     "author": "Qwen",
     "family": "Qwen3.5",
     "languages": ["English", "French", "Portuguese", "German", "Romanian", "Swedish", "Danish", "Bulgarian", "Russian", "Czech", "Greek", "Ukrainian", "Spanish", "Dutch", "Slovak", "Croatian", "Polish", "Lithuanian", "Norwegian Bokmål", "Norwegian Nynorsk", "Persian", "Slovenian", "Gujarati", "Latvian", "Italian", "Occitan", "Nepali", "Marathi", "Belarusian", "Serbian", "Luxembourgish", "Venetian", "Assamese", "Welsh", "Silesian", "Asturian", "Chhattisgarhi", "Awadhi", "Maithili", "Bhojpuri", "Sindhi", "Irish", "Faroese", "Hindi", "Punjabi", "Bengali", "Oriya", "Tajik", "Eastern Yiddish", "Lombard", "Ligurian", "Sicilian", "Friulian", "Sardinian", "Galician", "Catalan", "Icelandic", "Tosk Albanian", "Limburgish", "Dari", "Afrikaans", "Macedonian", "Sinhala", "Urdu", "Magahi", "Bosnian", "Armenian", "Chinese", "Burmese", "Arabic", "Hebrew", "Maltese", "Indonesian", "Malay", "Tagalog", "Cebuano", "Javanese", "Sundanese", "Minangkabau", "Balinese", "Banjar", "Pangasinan", "Iloko", "Waray", "Tamil", "Telugu", "Kannada", "Malayalam", "Turkish", "North Azerbaijani", "Northern Uzbek", "Kazakh", "Bashkir", "Tatar", "Thai", "Lao", "Finnish", "Estonian", "Hungarian", "Vietnamese", "Khmer", "Japanese", "Korean", "Georgian", "Basque", "Haitian", "Papiamento", "Kabuverdianu", "Tok Pisin", "Swahili"],
-    "thinking": true,
-    "imageIngestion": true,
-    "audioIngestion": false,
+    "thinking": false,
     "huggingfaceUrl": "https://huggingface.co/NobodyWho/Qwen_Qwen3.5-0.8B-GGUF",
     "parts": [
       {
@@ -132,8 +123,39 @@
       }
     ],
     "pipeline": "imageTextToText",
+    "supportedFileFormat": ["jpeg", "jpg", "png"],
     "tags": [
-      "Cutting edge"
+      "New"
+    ]
+  },
+  {
+    "id": 6,
+    "name": "LFM2.5 Audio",
+    "sizeGB": 0.9,
+    "parameterCountBillions": 1.5,
+    "author": "Liquid AI",
+    "family": "LFM2.5",
+    "languages": ["English", "Arabic", "Chinese", "French", "German", "Japanese", "Korean", "Spanish"],
+    "thinking": false,
+    "huggingfaceUrl": "https://huggingface.co/LiquidAI/LFM2.5-Audio-1.5B-GGUF",
+    "parts": [
+      {
+        "url": "https://huggingface.co/LiquidAI/LFM2.5-Audio-1.5B-GGUF/resolve/main/LFM2.5-Audio-1.5B-Q4_0.gguf",
+        "fileName": "LFM2.5-Audio-1.5B-Q4_0.gguf",
+        "type": "chat-model",
+        "sizeGB": 0.7
+      },
+      {
+        "url": "https://huggingface.co/LiquidAI/LFM2.5-Audio-1.5B-GGUF/resolve/main/mmproj-LFM2.5-Audio-1.5B-Q4_0.gguf",
+        "fileName": "mmproj-LFM2.5-Audio-1.5B-Q4_0.gguf",
+        "type": "projection-model",
+        "sizeGB": 0.2
+      }
+    ],
+    "pipeline": "audioTextToText",
+    "supportedFileFormat": ["mp3", "wav"],
+    "tags": [
+      "New"
     ]
   }
 ]
