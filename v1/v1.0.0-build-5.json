@@ -130,9 +130,7 @@
       }
     ],
     "pipeline": "textGeneration",
-    "tags": [
-      "Recommended"
-    ]
+    "tags": ["Great First Pick"]
   },
   {
     "id": 2,
@@ -266,7 +264,8 @@
     ],
     "pipeline": "textGeneration",
     "tags": [
-      "Clever"
+      "Clever",
+      "High CPU usage"
     ]
   },
   {
@@ -298,9 +297,7 @@
       }
     ],
     "pipeline": "textGeneration",
-    "tags": [
-      "Capable"
-    ]
+    "tags": ["Capable"]
   },
   {
     "id": 4,
@@ -447,7 +444,8 @@
       "wav"
     ],
     "tags": [
-      "Powerful"
+      "Powerful",
+      "High CPU usage"
     ]
   },
   {
@@ -592,9 +590,7 @@
       "jpg",
       "png"
     ],
-    "tags": [
-      "New"
-    ]
+    "tags": []
   },
   {
     "id": 6,
@@ -635,9 +631,7 @@
       "mp3",
       "wav"
     ],
-    "tags": [
-      "New"
-    ]
+    "tags": []
   },
   {
     "id": 7,
@@ -787,9 +781,7 @@
       }
     ],
     "pipeline": "textToSpeech",
-    "tags": [
-      "New"
-    ]
+    "tags": []
   },
   {
     "id": 8,
@@ -811,8 +803,28 @@
       }
     ],
     "pipeline": "textGeneration",
-    "tags": [
-      "European"
-    ]
+    "tags": ["European"]
+  },
+  {
+    "id": 9,
+    "name": "Granite 4.0 H",
+    "sizeGB": 0.9,
+    "parameterCountBillions": 1,
+    "author": "IBM",
+    "family": "Granite 4.0",
+    "languages": ["English", "German", "Spanish", "French", "Japanese", "Portuguese", "Arabic", "Czech", "Italian", "Korean", "Dutch", "Chinese"],
+    "thinking": true,
+    "toolCalling": false,
+    "huggingfaceUrl": "https://huggingface.co/unsloth/granite-4.0-h-1b-GGUF",
+    "parts": [
+      {
+        "url": "https://huggingface.co/unsloth/granite-4.0-h-1b-GGUF/resolve/main/granite-4.0-h-1b-Q4_K_M.gguf",
+        "fileName": "granite-4.0-h-1b-Q4_K_M.gguf",
+        "type": "chat-model",
+        "sizeGB": 0.9
+      }
+    ],
+    "pipeline": "textGeneration",
+    "tags": []
   }
 ]
