@@ -813,8 +813,8 @@
     "author": "IBM",
     "family": "Granite 4.0",
     "languages": ["English", "German", "Spanish", "French", "Japanese", "Portuguese", "Arabic", "Czech", "Italian", "Korean", "Dutch", "Chinese"],
-    "thinking": true,
-    "toolCalling": false,
+    "thinking": false,
+    "toolCalling": true,
     "huggingfaceUrl": "https://huggingface.co/unsloth/granite-4.0-h-1b-GGUF",
     "parts": [
       {
