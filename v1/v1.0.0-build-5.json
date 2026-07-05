@@ -41,7 +41,7 @@
       }
     ],
     "pipeline": "textGeneration",
-    "tags": ["Clever", "High CPU usage"]
+    "tags": ["Clever"]
   },
   {
     "id": 3,
@@ -92,7 +92,7 @@
     ],
     "pipeline": "imageAudioTextToText",
     "supportedFileFormat": ["jpeg", "jpg", "png", "mp3", "wav"],
-    "tags": [ "Powerful", "High CPU usage"]
+    "tags": [ "Powerful"]
   },
   {
     "id": 5,
@@ -290,7 +290,7 @@
       }
     ],
     "pipeline": "textGeneration",
-    "tags": ["High CPU usage", "European"]
+    "tags": ["European"]
   },
   {
     "id": 9,
