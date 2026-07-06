@@ -19,9 +19,7 @@
       }
     ],
     "pipeline": "textGeneration",
-    "tags": [
-      "Recommended"
-    ]
+    "tags": ["Great First Pick"]
   },
   {
     "id": 2,
@@ -43,9 +41,7 @@
       }
     ],
     "pipeline": "textGeneration",
-    "tags": [
-      "Clever"
-    ]
+    "tags": ["Clever"]
   },
   {
     "id": 3,
@@ -67,9 +63,7 @@
       }
     ],
     "pipeline": "textGeneration",
-    "tags": [
-      "Capable"
-    ]
+    "tags": ["Capable"]
   },
   {
     "id": 4,
@@ -98,9 +92,7 @@
     ],
     "pipeline": "imageAudioTextToText",
     "supportedFileFormat": ["jpeg", "jpg", "png", "mp3", "wav"],
-    "tags": [
-      "Powerful"
-    ]
+    "tags": [ "Powerful"]
   },
   {
     "id": 5,
@@ -128,10 +120,8 @@
       }
     ],
     "pipeline": "imageTextToText",
-    "supportedFileFormat": ["jpeg", "jpg", "png"],
-    "tags": [
-      "New"
-    ]
+    "supportedFileFormat": [ "jpeg", "jpg", "png"],
+    "tags": []
   },
   {
     "id": 6,
@@ -140,7 +130,7 @@
     "parameterCountBillions": 1.5,
     "author": "Liquid AI",
     "family": "LFM2.5",
-    "languages": ["English", "Arabic", "Chinese", "French", "German", "Japanese", "Korean", "Spanish"],
+    "languages": [ "English", "Arabic", "Chinese", "French", "German", "Japanese", "Korean", "Spanish"],
     "thinking": false,
     "toolCalling": false,
     "huggingfaceUrl": "https://huggingface.co/LiquidAI/LFM2.5-Audio-1.5B-GGUF",
@@ -159,9 +149,169 @@
       }
     ],
     "pipeline": "audioTextToText",
-    "supportedFileFormat": ["mp3", "wav"],
-    "tags": [
-      "New"
-    ]
+    "supportedFileFormat": [ "mp3", "wav"],
+    "tags": []
+  },
+  {
+    "id": 7,
+    "name": "Supertonic 3",
+    "sizeGB": 0.4,
+    "parameterCountBillions": 0.099,
+    "author": "Supertone",
+    "family": "Supertonic",
+    "languages": [ "English", "Korean", "Japanese", "Arabic", "Bulgarian", "Czech", "Danish", "German", "Greek", "Spanish", "Estonian", "Finnish", "French", "Hindi", "Croatian", "Hungarian", "Indonesian", "Italian", "Lithuanian", "Latvian", "Dutch", "Polish", "Portuguese", "Romanian", "Russian", "Slovak", "Slovenian", "Swedish", "Turkish", "Ukrainian", "Vietnamese"],
+    "thinking": false,
+    "toolCalling": false,
+    "huggingfaceUrl": "https://huggingface.co/Supertone/supertonic-3",
+    "parts": [
+      {
+        "url": "https://huggingface.co/Supertone/supertonic-3/resolve/main/config.json",
+        "fileName": "config.json",
+        "type": "tts-file",
+        "sizeGB": 0.0
+      },
+      {
+        "url": "https://huggingface.co/Supertone/supertonic-3/resolve/main/onnx/duration_predictor.onnx",
+        "fileName": "onnx/duration_predictor.onnx",
+        "type": "tts-file",
+        "sizeGB": 0.0037
+      },
+      {
+        "url": "https://huggingface.co/Supertone/supertonic-3/resolve/main/onnx/text_encoder.onnx",
+        "fileName": "onnx/text_encoder.onnx",
+        "type": "tts-file",
+        "sizeGB": 0.036
+      },
+      {
+        "url": "https://huggingface.co/Supertone/supertonic-3/resolve/main/onnx/tts.json",
+        "fileName": "onnx/tts.json",
+        "type": "tts-file",
+        "sizeGB": 0.0
+      },
+      {
+        "url": "https://huggingface.co/Supertone/supertonic-3/resolve/main/onnx/unicode_indexer.json",
+        "fileName": "onnx/unicode_indexer.json",
+        "type": "tts-file",
+        "sizeGB": 0.0
+      },
+      {
+        "url": "https://huggingface.co/Supertone/supertonic-3/resolve/main/onnx/vector_estimator.onnx",
+        "fileName": "onnx/vector_estimator.onnx",
+        "type": "tts-file",
+        "sizeGB": 0.257
+      },
+      {
+        "url": "https://huggingface.co/Supertone/supertonic-3/resolve/main/onnx/vocoder.onnx",
+        "fileName": "onnx/vocoder.onnx",
+        "type": "tts-file",
+        "sizeGB": 0.101
+      },
+      {
+        "url": "https://huggingface.co/Supertone/supertonic-3/resolve/main/voice_styles/F1.json",
+        "fileName": "voice_styles/F1.json",
+        "type": "tts-file",
+        "sizeGB": 0.0
+      },
+      {
+        "url": "https://huggingface.co/Supertone/supertonic-3/resolve/main/voice_styles/F2.json",
+        "fileName": "voice_styles/F2.json",
+        "type": "tts-file",
+        "sizeGB": 0.0
+      },
+      {
+        "url": "https://huggingface.co/Supertone/supertonic-3/resolve/main/voice_styles/F3.json",
+        "fileName": "voice_styles/F3.json",
+        "type": "tts-file",
+        "sizeGB": 0.0
+      },
+      {
+        "url": "https://huggingface.co/Supertone/supertonic-3/resolve/main/voice_styles/F4.json",
+        "fileName": "voice_styles/F4.json",
+        "type": "tts-file",
+        "sizeGB": 0.0
+      },
+      {
+        "url": "https://huggingface.co/Supertone/supertonic-3/resolve/main/voice_styles/F5.json",
+        "fileName": "voice_styles/F5.json",
+        "type": "tts-file",
+        "sizeGB": 0.0
+      },
+      {
+        "url": "https://huggingface.co/Supertone/supertonic-3/resolve/main/voice_styles/M1.json",
+        "fileName": "voice_styles/M1.json",
+        "type": "tts-file",
+        "sizeGB": 0.0
+      },
+      {
+        "url": "https://huggingface.co/Supertone/supertonic-3/resolve/main/voice_styles/M2.json",
+        "fileName": "voice_styles/M2.json",
+        "type": "tts-file",
+        "sizeGB": 0.0
+      },
+      {
+        "url": "https://huggingface.co/Supertone/supertonic-3/resolve/main/voice_styles/M3.json",
+        "fileName": "voice_styles/M3.json",
+        "type": "tts-file",
+        "sizeGB": 0.0
+      },
+      {
+        "url": "https://huggingface.co/Supertone/supertonic-3/resolve/main/voice_styles/M4.json",
+        "fileName": "voice_styles/M4.json",
+        "type": "tts-file",
+        "sizeGB": 0.0
+      },
+      {
+        "url": "https://huggingface.co/Supertone/supertonic-3/resolve/main/voice_styles/M5.json",
+        "fileName": "voice_styles/M5.json",
+        "type": "tts-file",
+        "sizeGB": 0.0
+      }
+    ],
+    "pipeline": "textToSpeech",
+    "tags": []
+  },
+  {
+    "id": 8,
+    "name": "Ministral 3 Reasoning",
+    "sizeGB": 2.15,
+    "parameterCountBillions": 3,
+    "author": "Mistral",
+    "family": "Ministral 3",
+    "languages": ["English", "French", "Spanish", "German", "Italian", "Portuguese", "Dutch", "Chinese", "Japanese", "Korean", "Arabic"],
+    "thinking": true,
+    "toolCalling": true,
+    "huggingfaceUrl": "https://huggingface.co/unsloth/Ministral-3-3B-Reasoning-2512-GGUF",
+    "parts": [
+      {
+        "url": "https://huggingface.co/unsloth/Ministral-3-3B-Reasoning-2512-GGUF/resolve/main/Ministral-3-3B-Reasoning-2512-Q4_K_M.gguf",
+        "fileName": "Ministral-3-3B-Reasoning-2512-Q4_K_M.gguf",
+        "type": "chat-model",
+        "sizeGB": 2.15
+      }
+    ],
+    "pipeline": "textGeneration",
+    "tags": ["European"]
+  },
+  {
+    "id": 9,
+    "name": "Granite 4.0 H",
+    "sizeGB": 0.9,
+    "parameterCountBillions": 1,
+    "author": "IBM",
+    "family": "Granite 4.0",
+    "languages": ["English", "German", "Spanish", "French", "Japanese", "Portuguese", "Arabic", "Czech", "Italian", "Korean", "Dutch", "Chinese"],
+    "thinking": false,
+    "toolCalling": true,
+    "huggingfaceUrl": "https://huggingface.co/unsloth/granite-4.0-h-1b-GGUF",
+    "parts": [
+      {
+        "url": "https://huggingface.co/unsloth/granite-4.0-h-1b-GGUF/resolve/main/granite-4.0-h-1b-Q4_K_M.gguf",
+        "fileName": "granite-4.0-h-1b-Q4_K_M.gguf",
+        "type": "chat-model",
+        "sizeGB": 0.9
+      }
+    ],
+    "pipeline": "textGeneration",
+    "tags": []
   }
 ]
