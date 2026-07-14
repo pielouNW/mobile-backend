@@ -312,6 +312,6 @@
       }
     ],
     "pipeline": "textGeneration",
-    "tags": []
+    "tags": ["Great First Pick"]
   }
 ]
