@@ -316,24 +316,91 @@
   },
   {
     "id": 10,
-    "name": "LFM2.5 Instruct",
-    "sizeGB": 1.67,
-    "parameterCountBillions": 2.6,
-    "author": "Liquid AI",
-    "family": "LFM2.5",
-    "languages": ["English", "Arabic", "Chinese", "French", "German", "Japanese", "Korean", "Spanish"],
+    "name": "Whisper Base",
+    "sizeGB": 0.08,
+    "parameterCountBillions": 0.074,
+    "author": "OpenAI",
+    "family": "Whisper",
+    "languages": ["English", "Chinese", "German", "Spanish", "Russian", "Korean", "French", "Japanese", "Portuguese", "Turkish", "Polish", "Catalan", "Dutch", "Arabic", "Swedish", "Italian", "Indonesian", "Hindi", "Finnish", "Vietnamese", "Hebrew", "Ukrainian", "Greek", "Malay", "Czech", "Romanian", "Danish", "Hungarian", "Tamil", "Norwegian", "Thai", "Urdu", "Croatian", "Bulgarian", "Lithuanian", "Latin", "Maori", "Malayalam", "Welsh", "Slovak", "Telugu", "Persian", "Latvian", "Bengali", "Serbian", "Azerbaijani", "Slovenian", "Kannada", "Estonian", "Macedonian", "Breton", "Basque", "Icelandic", "Armenian", "Nepali", "Mongolian", "Bosnian", "Kazakh", "Albanian", "Swahili", "Galician", "Marathi", "Punjabi", "Sinhala", "Khmer", "Shona", "Yoruba", "Somali", "Afrikaans", "Occitan", "Georgian", "Belarusian", "Tajik", "Sindhi", "Gujarati", "Amharic", "Yiddish", "Lao", "Uzbek", "Faroese", "Haitian Creole", "Pashto", "Turkmen", "Norwegian Nynorsk", "Maltese", "Sanskrit", "Luxembourgish", "Burmese", "Tibetan", "Tagalog", "Malagasy", "Assamese", "Tatar", "Hawaiian", "Lingala", "Hausa", "Bashkir", "Javanese", "Sundanese"],
     "thinking": false,
-    "toolCalling": true,
-    "huggingfaceUrl": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUFF",
+    "toolCalling": false,
+    "huggingfaceUrl": "https://huggingface.co/onnx-community/whisper-base",
     "parts": [
       {
-        "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF/resolve/main/LFM2.5-2.6B-Q4_K_M.gguf",
-        "fileName": "LFM2.5-2.6B-Q4_K_M.gguf",
-        "type": "chat-model",
-        "sizeGB": 1.67
+        "url": "https://huggingface.co/onnx-community/whisper-base/resolve/main/onnx/encoder_model_int8.onnx",
+        "fileName": "onnx/encoder_model_int8.onnx",
+        "type": "stt-file",
+        "sizeGB": 0.023
+      },
+      {
+        "url": "https://huggingface.co/onnx-community/whisper-base/resolve/main/onnx/decoder_model_merged_int8.onnx",
+        "fileName": "onnx/decoder_model_merged_int8.onnx",
+        "type": "stt-file",
+        "sizeGB": 0.054
+      },
+      {
+        "url": "https://huggingface.co/onnx-community/whisper-base/resolve/main/config.json",
+        "fileName": "config.json",
+        "type": "stt-file",
+        "sizeGB": 0.0
+      },
+      {
+        "url": "https://huggingface.co/onnx-community/whisper-base/resolve/main/generation_config.json",
+        "fileName": "generation_config.json",
+        "type": "stt-file",
+        "sizeGB": 0.0
+      },
+      {
+        "url": "https://huggingface.co/onnx-community/whisper-base/resolve/main/preprocessor_config.json",
+        "fileName": "preprocessor_config.json",
+        "type": "stt-file",
+        "sizeGB": 0.0
+      },
+      {
+        "url": "https://huggingface.co/onnx-community/whisper-base/resolve/main/tokenizer.json",
+        "fileName": "tokenizer.json",
+        "type": "stt-file",
+        "sizeGB": 0.002
+      },
+      {
+        "url": "https://huggingface.co/onnx-community/whisper-base/resolve/main/tokenizer_config.json",
+        "fileName": "tokenizer_config.json",
+        "type": "stt-file",
+        "sizeGB": 0.0
+      },
+      {
+        "url": "https://huggingface.co/onnx-community/whisper-base/resolve/main/vocab.json",
+        "fileName": "vocab.json",
+        "type": "stt-file",
+        "sizeGB": 0.001
+      },
+      {
+        "url": "https://huggingface.co/onnx-community/whisper-base/resolve/main/merges.txt",
+        "fileName": "merges.txt",
+        "type": "stt-file",
+        "sizeGB": 0.0
+      },
+      {
+        "url": "https://huggingface.co/onnx-community/whisper-base/resolve/main/normalizer.json",
+        "fileName": "normalizer.json",
+        "type": "stt-file",
+        "sizeGB": 0.0
+      },
+      {
+        "url": "https://huggingface.co/onnx-community/whisper-base/resolve/main/added_tokens.json",
+        "fileName": "added_tokens.json",
+        "type": "stt-file",
+        "sizeGB": 0.0
+      },
+      {
+        "url": "https://huggingface.co/onnx-community/whisper-base/resolve/main/special_tokens_map.json",
+        "fileName": "special_tokens_map.json",
+        "type": "stt-file",
+        "sizeGB": 0.0
       }
     ],
-    "pipeline": "textGeneration",
-    "tags": ["Capable"]
+    "pipeline": "speechToText",
+    "supportedFileFormat": ["mp3", "wav"],
+    "tags": []
   }
 ]
