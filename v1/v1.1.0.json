@@ -66,35 +66,6 @@
     "tags": ["Capable"]
   },
   {
-    "id": 4,
-    "name": "Gemma 4 E2B",
-    "sizeGB": 3.5,
-    "parameterCountBillions": 2.3,
-    "author": "Google",
-    "family": "Gemma 4",
-    "languages": ["English", "French", "Portuguese", "German", "Romanian", "Swedish", "Danish", "Bulgarian", "Russian", "Czech", "Greek", "Ukrainian", "Spanish", "Dutch", "Slovak", "Croatian", "Polish", "Lithuanian", "Norwegian Bokmål", "Norwegian Nynorsk", "Persian", "Slovenian", "Gujarati", "Latvian", "Italian", "Occitan", "Nepali", "Marathi", "Belarusian", "Serbian", "Luxembourgish", "Venetian", "Assamese", "Welsh", "Silesian", "Asturian", "Chhattisgarhi", "Awadhi", "Maithili", "Bhojpuri", "Sindhi", "Irish", "Faroese", "Hindi", "Punjabi", "Bengali", "Oriya", "Tajik", "Eastern Yiddish", "Lombard", "Ligurian", "Sicilian", "Friulian", "Sardinian", "Galician", "Catalan", "Icelandic", "Tosk Albanian", "Limburgish", "Dari", "Afrikaans", "Macedonian", "Sinhala", "Urdu", "Magahi", "Bosnian", "Armenian", "Chinese", "Burmese", "Arabic", "Hebrew", "Maltese", "Indonesian", "Malay", "Tagalog", "Cebuano", "Javanese", "Sundanese", "Minangkabau", "Balinese", "Banjar", "Pangasinan", "Iloko", "Waray", "Tamil", "Telugu", "Kannada", "Malayalam", "Turkish", "North Azerbaijani", "Northern Uzbek", "Kazakh", "Bashkir", "Tatar", "Thai", "Lao", "Finnish", "Estonian", "Hungarian", "Vietnamese", "Khmer", "Japanese", "Korean", "Georgian", "Basque", "Haitian", "Papiamento", "Kabuverdianu", "Tok Pisin", "Swahili"],
-    "thinking": true,
-    "toolCalling": true,
-    "huggingfaceUrl": "https://huggingface.co/NobodyWho/Google_Gemma4-E2B-GGUF/tree/main",
-    "parts": [
-      {
-        "url": "https://huggingface.co/NobodyWho/Google_Gemma4-E2B-GGUF/resolve/main/gemma-4-E2B-it-Q3_K_M.gguf",
-        "fileName": "gemma-4-E2B-it-Q3_K_M.gguf",
-        "type": "chat-model",
-        "sizeGB": 2.5
-      },
-      {
-        "url": "https://huggingface.co/NobodyWho/Google_Gemma4-E2B-GGUF/resolve/main/mmproj-BF16.gguf",
-        "fileName": "mmproj-BF16.gguf",
-        "type": "projection-model",
-        "sizeGB": 1
-      }
-    ],
-    "pipeline": "imageAudioTextToText",
-    "supportedFileFormat": ["jpeg", "jpg", "png", "mp3", "wav"],
-    "tags": [ "Powerful"]
-  },
-  {
     "id": 5,
     "name": "Qwen3.5",
     "sizeGB": 0.7,
@@ -402,5 +373,34 @@
     "pipeline": "speech-to-text",
     "supportedFileFormat": ["mp3", "wav"],
     "tags": []
+  },
+  {
+    "id": 11,
+    "name": "Gemma 4 E2B QAT",
+    "sizeGB": 3.2,
+    "parameterCountBillions": 5,
+    "author": "Google",
+    "family": "Gemma 4",
+    "languages": ["English", "French", "Portuguese", "German", "Romanian", "Swedish", "Danish", "Bulgarian", "Russian", "Czech", "Greek", "Ukrainian", "Spanish", "Dutch", "Slovak", "Croatian", "Polish", "Lithuanian", "Norwegian Bokmål", "Norwegian Nynorsk", "Persian", "Slovenian", "Gujarati", "Latvian", "Italian", "Occitan", "Nepali", "Marathi", "Belarusian", "Serbian", "Luxembourgish", "Venetian", "Assamese", "Welsh", "Silesian", "Asturian", "Chhattisgarhi", "Awadhi", "Maithili", "Bhojpuri", "Sindhi", "Irish", "Faroese", "Hindi", "Punjabi", "Bengali", "Oriya", "Tajik", "Eastern Yiddish", "Lombard", "Ligurian", "Sicilian", "Friulian", "Sardinian", "Galician", "Catalan", "Icelandic", "Tosk Albanian", "Limburgish", "Dari", "Afrikaans", "Macedonian", "Sinhala", "Urdu", "Magahi", "Bosnian", "Armenian", "Chinese", "Burmese", "Arabic", "Hebrew", "Maltese", "Indonesian", "Malay", "Tagalog", "Cebuano", "Javanese", "Sundanese", "Minangkabau", "Balinese", "Banjar", "Pangasinan", "Iloko", "Waray", "Tamil", "Telugu", "Kannada", "Malayalam", "Turkish", "North Azerbaijani", "Northern Uzbek", "Kazakh", "Bashkir", "Tatar", "Thai", "Lao", "Finnish", "Estonian", "Hungarian", "Vietnamese", "Khmer", "Japanese", "Korean", "Georgian", "Basque", "Haitian", "Papiamento", "Kabuverdianu", "Tok Pisin", "Swahili"],
+    "thinking": true,
+    "toolCalling": true,
+    "huggingfaceUrl": "https://huggingface.co/unsloth/gemma-4-E2B-it-qat-mobile-GGUF",
+    "parts": [
+      {
+        "url": "https://huggingface.co/unsloth/gemma-4-E2B-it-qat-mobile-GGUF/resolve/main/gemma-4-E2B-it-qat-UD-Q2_K_XL.gguf",
+        "fileName": "gemma-4-E2B-it-qat-UD-Q2_K_XL.gguf",
+        "type": "chat-model",
+        "sizeGB": 2.2
+      },
+      {
+        "url": "https://huggingface.co/unsloth/gemma-4-E2B-it-qat-mobile-GGUF/resolve/main/mmproj-BF16.gguf",
+        "fileName": "mmproj-BF16.gguf",
+        "type": "projection-model",
+        "sizeGB": 1
+      }
+    ],
+    "pipeline": "imageAudioTextToText",
+    "supportedFileFormat": ["jpeg", "jpg", "png", "mp3", "wav"],
+    "tags": [ "Powerful"]
   }
 ]
