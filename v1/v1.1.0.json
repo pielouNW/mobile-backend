@@ -370,8 +370,8 @@
         "sizeGB": 0.0
       }
     ],
-    "pipeline": "speech-to-text",
-    "supportedFileFormat": ["mp3", "wav"],
+    "pipeline": "speechToText",
+    "supportedFileFormat": ["wav"],
     "tags": []
   },
   {
