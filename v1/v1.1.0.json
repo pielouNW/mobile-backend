@@ -405,7 +405,7 @@
   },
   {
     "id": 12,
-    "name": "Silero",
+    "name": "Silero VAD",
     "sizeGB": 0.002,
     "parameterCountBillions": 0.000309,
     "author": "Silero",
@@ -417,12 +417,12 @@
     "parts": [
       {
         "url": "https://huggingface.co/onnx-community/silero-vad/resolve/main/onnx/model.onnx",
-        "fileName": "model.onnx",
+        "fileName": "onnx/model.onnx",
         "type": "vad-file",
         "sizeGB": 0.002
       }
     ],
     "pipeline": "voiceActivityDetection",
-    "tags": []
+    "tags": ["Hands-free"]
   }
 ]
