@@ -402,5 +402,27 @@
     "pipeline": "imageAudioTextToText",
     "supportedFileFormat": ["jpeg", "jpg", "png", "mp3", "wav"],
     "tags": [ "Powerful"]
+  },
+  {
+    "id": 12,
+    "name": "Silero",
+    "sizeGB": 0.002,
+    "parameterCountBillions": 0.000309,
+    "author": "Silero",
+    "family": "Silero",
+    "languages": [],
+    "thinking": false,
+    "toolCalling": false,
+    "huggingfaceUrl": "https://huggingface.co/onnx-community/silero-vad",
+    "parts": [
+      {
+        "url": "https://huggingface.co/onnx-community/silero-vad/resolve/main/onnx/model.onnx",
+        "fileName": "model.onnx",
+        "type": "vad-file",
+        "sizeGB": 0.002
+      }
+    ],
+    "pipeline": "voiceActivityDetection",
+    "tags": []
   }
 ]
