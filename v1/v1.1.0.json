@@ -265,6 +265,7 @@
   },
   {
     "id": 9,
+    "order": 1,
     "name": "Granite 4.0 H",
     "sizeGB": 0.9,
     "parameterCountBillions": 1,
@@ -451,6 +452,7 @@
     "id": 14,
     "name": "Bonsai",
     "sizeGB": 1.16,
+    "order": 2,
     "parameterCountBillions": 8,
     "author": "Prism ML",
     "family": "Bonsai",
