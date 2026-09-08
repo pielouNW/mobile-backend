@@ -486,12 +486,34 @@
     "parts": [
       {
         "url": "https://huggingface.co/prism-ml/Bonsai-4B-gguf/resolve/main/Bonsai-4B.gguf",
-        "fileName": "Bonsai-8B.gguf",
+        "fileName": "Bonsai-4B.gguf",
         "type": "chat-model",
         "sizeGB": 0.6
       }
     ],
     "pipeline": "textGeneration",
     "tags": ["Great First Pick"]
+  },
+  {
+    "id": 16,
+    "name": "LFM2.5",
+    "sizeGB": 1.67,
+    "parameterCountBillions": 2.6,
+    "author": "Liquid AI",
+    "family": "LFM2.5",
+    "languages": ["English", "Arabic", "Chinese", "French", "Italian", "German", "Japanese", "Korean", "Portuguese", "Spanish", "Vietnamese", "Thai", "Indonesian", "Hindi", "Russian", "Polish" ],
+    "thinking": true,
+    "toolCalling": true,
+    "huggingfaceUrl": "https://huggingface.co/NobodyWho/LFM2.5-2.6B-GGUF",
+    "parts": [
+      {
+        "url": "https://huggingface.co/NobodyWho/LFM2.5-2.6B-GGUF/resolve/main/LFM2.5-2.6B-Q4_K_M.gguf",
+        "fileName": "LFM2.5-2.6B-Q4_K_M.gguf",
+        "type": "chat-model",
+        "sizeGB": 1.67
+      }
+    ],
+    "pipeline": "textGeneration",
+    "tags": ["Agentic capabilities"]
   }
 ]
