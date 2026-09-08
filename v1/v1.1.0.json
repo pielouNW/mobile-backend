@@ -461,7 +461,7 @@
     "parts": [
       {
         "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-4B-gguf/resolve/main/Ternary-Bonsai-4B-Q2_0.gguf",
-        "fileName": "gemma-4-E2B-it-qat-UD-Q2_K_XL.gguf",
+        "fileName": "Ternary-Bonsai-4B-Q2_0.gguf",
         "type": "chat-model",
         "sizeGB": 1
       }
