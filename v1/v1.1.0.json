@@ -51,7 +51,7 @@
     "author": "Liquid AI",
     "family": "LFM2.5",
     "languages": ["English", "Arabic", "Chinese", "French", "German", "Japanese", "Korean", "Spanish"],
-    "thinking": false,
+    "thinking": true,
     "toolCalling": true,
     "huggingfaceUrl": "https://huggingface.co/NobodyWho/LFM2.5-1.2B-Instruct-GGUF",
     "parts": [
