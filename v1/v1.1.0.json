@@ -428,6 +428,7 @@
   },
   {
     "id": 13,
+    "order": 3,
     "name": "Gemma 4 E2B QAT",
     "sizeGB": 2.2,
     "parameterCountBillions": 5,
@@ -450,9 +451,9 @@
   },
   {
     "id": 14,
+    "order": 2,
     "name": "Bonsai",
     "sizeGB": 1.16,
-    "order": 2,
     "parameterCountBillions": 8,
     "author": "Prism ML",
     "family": "Bonsai",
