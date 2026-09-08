@@ -449,21 +449,21 @@
   },
   {
     "id": 14,
-    "name": "Ternary Bonsai 4B",
-    "sizeGB": 1,
-    "parameterCountBillions": 4,
+    "name": "Bonsai",
+    "sizeGB": 1.16,
+    "parameterCountBillions": 8,
     "author": "Prism ML",
     "family": "Bonsai",
     "languages": ["English", "French", "Portuguese", "German", "Romanian", "Swedish", "Danish", "Bulgarian", "Russian", "Czech", "Greek", "Ukrainian", "Spanish", "Dutch", "Slovak", "Croatian", "Polish", "Lithuanian", "Norwegian Bokmål", "Norwegian Nynorsk", "Persian", "Slovenian", "Gujarati", "Latvian", "Italian", "Occitan", "Nepali", "Marathi", "Belarusian", "Serbian", "Luxembourgish", "Venetian", "Assamese", "Welsh", "Silesian", "Asturian", "Chhattisgarhi", "Awadhi", "Maithili", "Bhojpuri", "Sindhi", "Irish", "Faroese", "Hindi", "Punjabi", "Bengali", "Oriya", "Tajik", "Eastern Yiddish", "Lombard", "Ligurian", "Sicilian", "Friulian", "Sardinian", "Galician", "Catalan", "Icelandic", "Tosk Albanian", "Limburgish", "Dari", "Afrikaans", "Macedonian", "Sinhala", "Urdu", "Magahi", "Bosnian", "Armenian", "Chinese", "Burmese", "Arabic", "Hebrew", "Maltese", "Indonesian", "Malay", "Tagalog", "Cebuano", "Javanese", "Sundanese", "Minangkabau", "Balinese", "Banjar", "Pangasinan", "Iloko", "Waray", "Tamil", "Telugu", "Kannada", "Malayalam", "Turkish", "North Azerbaijani", "Northern Uzbek", "Kazakh", "Bashkir", "Tatar", "Thai", "Lao", "Finnish", "Estonian", "Hungarian", "Vietnamese", "Khmer", "Japanese", "Korean", "Georgian", "Basque", "Haitian", "Papiamento", "Kabuverdianu", "Tok Pisin", "Swahili"],
     "thinking": true,
     "toolCalling": true,
-    "huggingfaceUrl": "https://huggingface.co/prism-ml/Ternary-Bonsai-4B-gguf",
+    "huggingfaceUrl": "https://huggingface.co/prism-ml/Bonsai-8B-gguf",
     "parts": [
       {
-        "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-4B-gguf/resolve/main/Ternary-Bonsai-4B-Q2_0.gguf",
-        "fileName": "Ternary-Bonsai-4B-Q2_0.gguf",
+        "url": "https://huggingface.co/prism-ml/Bonsai-8B-gguf/resolve/main/Bonsai-8B.gguf",
+        "fileName": "Bonsai-8B.gguf",
         "type": "chat-model",
-        "sizeGB": 1
+        "sizeGB": 1.16
       }
     ],
     "pipeline": "textGeneration",
