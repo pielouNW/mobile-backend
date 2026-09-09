@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Qwen3",
-    "sizeGB": 0.4,
+    "sizeGB": 0.48,
     "parameterCountBillions": 0.6,
     "author": "Qwen",
     "family": "Qwen3",
@@ -15,7 +15,7 @@
         "url": "https://huggingface.co/NobodyWho/Qwen_Qwen3-0.6B-GGUF/resolve/main/Qwen_Qwen3-0.6B-Q4_K_M.gguf",
         "fileName": "Qwen_Qwen3-0.6B-Q4_K_M.gguf",
         "type": "chat-model",
-        "sizeGB": 0.4
+        "sizeGB": 0.48
       }
     ],
     "pipeline": "textGeneration",
@@ -475,7 +475,7 @@
     "id": 15,
     "order": 2,
     "name": "Bonsai",
-    "sizeGB": 0.6,
+    "sizeGB": 0.57,
     "parameterCountBillions": 4,
     "author": "Prism ML",
     "family": "Bonsai",
@@ -488,7 +488,7 @@
         "url": "https://huggingface.co/prism-ml/Bonsai-4B-gguf/resolve/main/Bonsai-4B.gguf",
         "fileName": "Bonsai-4B.gguf",
         "type": "chat-model",
-        "sizeGB": 0.6
+        "sizeGB": 0.57
       }
     ],
     "pipeline": "textGeneration",
