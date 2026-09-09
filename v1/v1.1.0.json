@@ -265,7 +265,7 @@
   },
   {
     "id": 9,
-    "order": 1,
+    "order": 2,
     "name": "Granite 4.0 H",
     "sizeGB": 0.9,
     "parameterCountBillions": 1,
@@ -473,7 +473,7 @@
   },
   {
     "id": 15,
-    "order": 2,
+    "order": 1,
     "name": "Bonsai",
     "sizeGB": 0.57,
     "parameterCountBillions": 4,
