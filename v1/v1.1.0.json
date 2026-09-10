@@ -424,7 +424,7 @@
       }
     ],
     "pipeline": "voiceActivityDetection",
-    "tags": ["Hands-free"]
+    "tags": ["Hands-free", "Any language"]
   },
   {
     "id": 13,
