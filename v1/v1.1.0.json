@@ -284,7 +284,7 @@
       }
     ],
     "pipeline": "textGeneration",
-    "tags": ["Tool calling"]
+    "tags": ["Great tool calling"]
   },
   {
     "id": 10,
@@ -402,7 +402,7 @@
     ],
     "pipeline": "imageAudioTextToText",
     "supportedFileFormat": ["jpeg", "jpg", "png", "mp3", "wav"],
-    "tags": [ "Powerful"]
+    "tags": [ "SOTA"]
   },
   {
     "id": 12,
@@ -447,7 +447,7 @@
       }
     ],
     "pipeline": "textGeneration",
-    "tags": [ "Powerful"]
+    "tags": [ "SOTA"]
   },
   {
     "id": 14,
@@ -480,7 +480,7 @@
     "author": "Prism ML",
     "family": "Bonsai",
     "languages": ["English", "French", "Portuguese", "German", "Romanian", "Swedish", "Danish", "Bulgarian", "Russian", "Czech", "Greek", "Ukrainian", "Spanish", "Dutch", "Slovak", "Croatian", "Polish", "Lithuanian", "Norwegian Bokmål", "Norwegian Nynorsk", "Persian", "Slovenian", "Gujarati", "Latvian", "Italian", "Occitan", "Nepali", "Marathi", "Belarusian", "Serbian", "Luxembourgish", "Venetian", "Assamese", "Welsh", "Silesian", "Asturian", "Chhattisgarhi", "Awadhi", "Maithili", "Bhojpuri", "Sindhi", "Irish", "Faroese", "Hindi", "Punjabi", "Bengali", "Oriya", "Tajik", "Eastern Yiddish", "Lombard", "Ligurian", "Sicilian", "Friulian", "Sardinian", "Galician", "Catalan", "Icelandic", "Tosk Albanian", "Limburgish", "Dari", "Afrikaans", "Macedonian", "Sinhala", "Urdu", "Magahi", "Bosnian", "Armenian", "Chinese", "Burmese", "Arabic", "Hebrew", "Maltese", "Indonesian", "Malay", "Tagalog", "Cebuano", "Javanese", "Sundanese", "Minangkabau", "Balinese", "Banjar", "Pangasinan", "Iloko", "Waray", "Tamil", "Telugu", "Kannada", "Malayalam", "Turkish", "North Azerbaijani", "Northern Uzbek", "Kazakh", "Bashkir", "Tatar", "Thai", "Lao", "Finnish", "Estonian", "Hungarian", "Vietnamese", "Khmer", "Japanese", "Korean", "Georgian", "Basque", "Haitian", "Papiamento", "Kabuverdianu", "Tok Pisin", "Swahili"],
-    "thinking": true,
+    "thinking": false,
     "toolCalling": true,
     "huggingfaceUrl": "https://huggingface.co/prism-ml/Bonsai-4B-gguf",
     "parts": [
@@ -493,5 +493,49 @@
     ],
     "pipeline": "textGeneration",
     "tags": ["Great First Pick"]
+  },
+  {
+    "id": 16,
+    "name": "Granite 4.1",
+    "sizeGB": 2.1,
+    "parameterCountBillions": 3,
+    "author": "IBM",
+    "family": "Granite 4.1",
+    "languages": ["English", "German", "Spanish", "French", "Japanese", "Portuguese", "Arabic", "Czech", "Italian", "Korean", "Dutch", "Chinese"],
+    "thinking": false,
+    "toolCalling": true,
+    "huggingfaceUrl": "https://huggingface.co/unsloth/granite-4.1-3b-GGUF",
+    "parts": [
+      {
+        "url": "https://huggingface.co/unsloth/granite-4.1-3b-GGUF/resolve/main/granite-4.1-3b-Q4_K_M.gguf",
+        "fileName": "granite-4.1-3b-Q4_K_M.gguf",
+        "type": "chat-model",
+        "sizeGB": 2.1
+      }
+    ],
+    "pipeline": "textGeneration",
+    "tags": ["Great tool calling"]
+  },
+  {
+    "id": 17,
+    "name": "Qwen3.5",
+    "sizeGB": 2.74,
+    "parameterCountBillions": 4,
+    "author": "Qwen",
+    "family": "Qwen3.5",
+    "languages": ["English", "French", "Portuguese", "German", "Romanian", "Swedish", "Danish", "Bulgarian", "Russian", "Czech", "Greek", "Ukrainian", "Spanish", "Dutch", "Slovak", "Croatian", "Polish", "Lithuanian", "Norwegian Bokmål", "Norwegian Nynorsk", "Persian", "Slovenian", "Gujarati", "Latvian", "Italian", "Occitan", "Nepali", "Marathi", "Belarusian", "Serbian", "Luxembourgish", "Venetian", "Assamese", "Welsh", "Silesian", "Asturian", "Chhattisgarhi", "Awadhi", "Maithili", "Bhojpuri", "Sindhi", "Irish", "Faroese", "Hindi", "Punjabi", "Bengali", "Oriya", "Tajik", "Eastern Yiddish", "Lombard", "Ligurian", "Sicilian", "Friulian", "Sardinian", "Galician", "Catalan", "Icelandic", "Tosk Albanian", "Limburgish", "Dari", "Afrikaans", "Macedonian", "Sinhala", "Urdu", "Magahi", "Bosnian", "Armenian", "Chinese", "Burmese", "Arabic", "Hebrew", "Maltese", "Indonesian", "Malay", "Tagalog", "Cebuano", "Javanese", "Sundanese", "Minangkabau", "Balinese", "Banjar", "Pangasinan", "Iloko", "Waray", "Tamil", "Telugu", "Kannada", "Malayalam", "Turkish", "North Azerbaijani", "Northern Uzbek", "Kazakh", "Bashkir", "Tatar", "Thai", "Lao", "Finnish", "Estonian", "Hungarian", "Vietnamese", "Khmer", "Japanese", "Korean", "Georgian", "Basque", "Haitian", "Papiamento", "Kabuverdianu", "Tok Pisin", "Swahili"],
+    "thinking": false,
+    "toolCalling": true,
+    "huggingfaceUrl": "https://huggingface.co/NobodyWho/Qwen_Qwen3-0.6B-GGUF",
+    "parts": [
+      {
+        "url": "https://huggingface.co/unsloth/Qwen3.5-4B-GGUF/resolve/main/Qwen3.5-4B-Q4_K_M.gguf",
+        "fileName": "Qwen3.5-4B-Q4_K_M.gguf",
+        "type": "chat-model",
+        "sizeGB": 2.74
+      }
+    ],
+    "pipeline": "textGeneration",
+    "tags": ["Powerful"]
   }
 ]
