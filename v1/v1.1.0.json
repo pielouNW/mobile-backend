@@ -546,7 +546,7 @@
     "author": "OpenBMB",
     "family": "MiniCPM5",
     "languages": ["English", "Chinese"],
-    "thinking": false,
+    "thinking": true,
     "toolCalling": true,
     "huggingfaceUrl": "https://huggingface.co/openbmb/MiniCPM5-2B-GGUF",
     "parts": [
