@@ -537,5 +537,27 @@
     ],
     "pipeline": "textGeneration",
     "tags": ["Powerful"]
+  },
+  {
+    "id": 18,
+    "name": "MiniCPM5",
+    "sizeGB": 1.56,
+    "parameterCountBillions": 2,
+    "author": "OpenBMB",
+    "family": "MiniCPM5",
+    "languages": ["English", "Chinese"],
+    "thinking": false,
+    "toolCalling": true,
+    "huggingfaceUrl": "https://huggingface.co/openbmb/MiniCPM5-2B-GGUF",
+    "parts": [
+      {
+        "url": "https://huggingface.co/openbmb/MiniCPM5-2B-GGUF/resolve/main/MiniCPM5-2B-Q4_K_M.gguf",
+        "fileName": "MiniCPM5-2B-Q4_K_M.gguf",
+        "type": "chat-model",
+        "sizeGB": 1.56
+      }
+    ],
+    "pipeline": "textGeneration",
+    "tags": ["Experimental"]
   }
 ]
