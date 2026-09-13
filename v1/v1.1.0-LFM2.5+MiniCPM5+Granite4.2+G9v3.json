@@ -559,5 +559,27 @@
     ],
     "pipeline": "textGeneration",
     "tags": ["New"]
+  },
+  {
+    "id": 20,
+    "name": "G9v3",
+    "sizeGB": 2.74,
+    "parameterCountBillions": 3,
+    "author": "AI9Stars",
+    "family": "G9v3",
+    "languages": ["English", "Chinese"],
+    "thinking": true,
+    "toolCalling": true,
+    "huggingfaceUrl": "https://huggingface.co/WhiskyAKM/G9v3-3B-GGUF",
+    "parts": [
+      {
+        "url": "https://huggingface.co/WhiskyAKM/G9v3-3B-GGUF/resolve/main/g9v3-3b-Q4_K_M.gguf",
+        "fileName": "g9v3-3b-Q4_K_M.gguf",
+        "type": "chat-model",
+        "sizeGB": 1.84
+      }
+    ],
+    "pipeline": "textGeneration",
+    "tags": ["Powerful"]
   }
 ]
