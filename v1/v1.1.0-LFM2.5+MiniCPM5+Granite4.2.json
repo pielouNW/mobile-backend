@@ -537,5 +537,27 @@
     ],
     "pipeline": "textGeneration",
     "tags": ["Experimental"]
+  },
+  {
+    "id": 19,
+    "name": "Granite 4.2",
+    "sizeGB": 2.32,
+    "parameterCountBillions": 3,
+    "author": "IBM",
+    "family": "Granite 4.2",
+    "languages": ["English", "German", "Spanish", "French", "Japanese", "Portuguese", "Arabic", "Czech", "Italian", "Korean", "Dutch", "Chinese"],
+    "thinking": true,
+    "toolCalling": true,
+    "huggingfaceUrl": "https://huggingface.co/bartowski/granite-4.2-3b-GGUF",
+    "parts": [
+      {
+        "url": "https://huggingface.co/bartowski/granite-4.2-3b-GGUF/resolve/main/granite-4.2-3b-Q4_K_M.gguf",
+        "fileName": "granite-4.2-3b-Q4_K_M.gguff",
+        "type": "chat-model",
+        "sizeGB": 2.32
+      }
+    ],
+    "pipeline": "textGeneration",
+    "tags": ["New"]
   }
 ]
