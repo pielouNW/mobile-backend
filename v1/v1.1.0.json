@@ -559,5 +559,27 @@
     ],
     "pipeline": "textGeneration",
     "tags": ["Powerful"]
+  },
+  {
+    "id": 19,
+    "name": "Nanbeige4.1",
+    "sizeGB": 2.58,
+    "parameterCountBillions": 3,
+    "author": "Nanbeige",
+    "family": "Nanbeige4.1",
+    "languages": ["English", "Chinese"],
+    "thinking": true,
+    "toolCalling": true,
+    "huggingfaceUrl": "https://huggingface.co/Mungert/Nanbeige4.1-3B-GGUF",
+    "parts": [
+      {
+        "url": "https://huggingface.co/Mungert/Nanbeige4.1-3B-GGUF/resolve/main/Nanbeige4.1-3B-q4_k_m.gguf",
+        "fileName": "Nanbeige4.1-3B-q4_k_m.gguf",
+        "type": "chat-model",
+        "sizeGB": 2.58
+      }
+    ],
+    "pipeline": "textGeneration",
+    "tags": ["Powerful"]
   }
 ]
