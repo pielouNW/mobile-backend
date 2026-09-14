@@ -558,6 +558,6 @@
       }
     ],
     "pipeline": "textGeneration",
-    "tags": ["Powerful"]
+    "tags": ["Needs big context size"]
   }
 ]
