@@ -559,49 +559,5 @@
     ],
     "pipeline": "textGeneration",
     "tags": ["Needs big context size"]
-  },
-  {
-    "id": 20,
-    "name": "MiniCPM5",
-    "sizeGB": 1.56,
-    "parameterCountBillions": 2,
-    "author": "OpenBMB",
-    "family": "MiniCPM5",
-    "languages": ["English", "Chinese"],
-    "thinking": true,
-    "toolCalling": true,
-    "huggingfaceUrl": "https://huggingface.co/openbmb/MiniCPM5-2B-GGUF",
-    "parts": [
-      {
-        "url": "https://huggingface.co/openbmb/MiniCPM5-2B-GGUF/resolve/main/MiniCPM5-2B-Q4_K_M.gguf",
-        "fileName": "MiniCPM5-2B-Q4_K_M.gguf",
-        "type": "chat-model",
-        "sizeGB": 1.56
-      }
-    ],
-    "pipeline": "textGeneration",
-    "tags": ["Experimental"]
-  },
-  {
-    "id": 24,
-    "name": "G9v3",
-    "sizeGB": 2.74,
-    "parameterCountBillions": 3,
-    "author": "AI9Stars",
-    "family": "G9v3",
-    "languages": ["English", "Chinese"],
-    "thinking": true,
-    "toolCalling": true,
-    "huggingfaceUrl": "https://huggingface.co/WhiskyAKM/G9v3-3B-GGUF",
-    "parts": [
-      {
-        "url": "https://huggingface.co/WhiskyAKM/G9v3-3B-GGUF/resolve/main/g9v3-3b-Q4_K_M.gguf",
-        "fileName": "g9v3-3b-Q4_K_M.gguf",
-        "type": "chat-model",
-        "sizeGB": 1.84
-      }
-    ],
-    "pipeline": "textGeneration",
-    "tags": ["Experimental"]
   }
 ]
