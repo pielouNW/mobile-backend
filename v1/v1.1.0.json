@@ -63,7 +63,7 @@
       }
     ],
     "pipeline": "textGeneration",
-    "tags": ["Capable"]
+    "tags": []
   },
   {
     "id": 5,
@@ -402,7 +402,7 @@
     ],
     "pipeline": "imageAudioTextToText",
     "supportedFileFormat": ["jpeg", "jpg", "png", "mp3", "wav"],
-    "tags": [ "SOTA"]
+    "tags": ["SOTA"]
   },
   {
     "id": 12,
@@ -447,7 +447,7 @@
       }
     ],
     "pipeline": "textGeneration",
-    "tags": [ "SOTA"]
+    "tags": ["SOTA"]
   },
   {
     "id": 14,
@@ -469,7 +469,7 @@
       }
     ],
     "pipeline": "textGeneration",
-    "tags": [ "Concentrating intelligence"]
+    "tags": []
   },
   {
     "id": 15,
