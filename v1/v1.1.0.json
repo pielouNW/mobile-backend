@@ -239,7 +239,7 @@
       }
     ],
     "pipeline": "textToSpeech",
-    "tags": []
+    "tags": ["Recommended"]
   },
   {
     "id": 8,
@@ -373,7 +373,7 @@
     ],
     "pipeline": "speechToText",
     "supportedFileFormat": ["wav"],
-    "tags": []
+    "tags": ["Recommended"]
   },
   {
     "id": 11,
@@ -424,7 +424,7 @@
       }
     ],
     "pipeline": "voiceActivityDetection",
-    "tags": ["Hands-free", "Any language"]
+    "tags": ["Hands-free", "Any language", "Recommended"]
   },
   {
     "id": 13,
