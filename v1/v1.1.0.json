@@ -583,28 +583,6 @@
     "tags": ["Experimental"]
   },
   {
-    "id": 20,
-    "name": "Granite 4.2",
-    "sizeGB": 2.32,
-    "parameterCountBillions": 3,
-    "author": "IBM",
-    "family": "Granite 4.2",
-    "languages": ["English", "German", "Spanish", "French", "Japanese", "Portuguese", "Arabic", "Czech", "Italian", "Korean", "Dutch", "Chinese"],
-    "thinking": true,
-    "toolCalling": true,
-    "huggingfaceUrl": "https://huggingface.co/bartowski/granite-4.2-3b-GGUF",
-    "parts": [
-      {
-        "url": "https://huggingface.co/bartowski/granite-4.2-3b-GGUF/resolve/main/granite-4.2-3b-Q4_K_M.gguf",
-        "fileName": "granite-4.2-3b-Q4_K_M.gguff",
-        "type": "chat-model",
-        "sizeGB": 2.32
-      }
-    ],
-    "pipeline": "textGeneration",
-    "tags": ["New"]
-  },
-  {
     "id": 21,
     "name": "G9v3",
     "sizeGB": 2.74,
@@ -625,5 +603,27 @@
     ],
     "pipeline": "textGeneration",
     "tags": ["Powerful"]
+  },
+  {
+    "id": 1,
+    "name": "LFM2.5",
+    "sizeGB": 1.67,
+    "parameterCountBillions": 2.6,
+    "author": "Liquid AI",
+    "family": "LFM2.5",
+    "languages": ["English", "Arabic", "Chinese", "French", "Italian", "German", "Japanese", "Korean", "Portuguese", "Spanish", "Vietnamese", "Thai", "Indonesian", "Hindi", "Russian", "Polish" ],
+    "thinking": true,
+    "toolCalling": true,
+    "huggingfaceUrl": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF/tree/main",
+    "parts": [
+      {
+        "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF/resolve/main/LFM2.5-2.6B-Q4_K_M.gguf",
+        "fileName": "LFM2.5-2.6B-Q4_K_M.gguf",
+        "type": "chat-model",
+        "sizeGB": 1.67
+      }
+    ],
+    "pipeline": "textGeneration",
+    "tags": ["Agentic capabilities"]
   }
 ]
