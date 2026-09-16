@@ -526,7 +526,7 @@
     "languages": ["English", "French", "Portuguese", "German", "Romanian", "Swedish", "Danish", "Bulgarian", "Russian", "Czech", "Greek", "Ukrainian", "Spanish", "Dutch", "Slovak", "Croatian", "Polish", "Lithuanian", "Norwegian Bokmål", "Norwegian Nynorsk", "Persian", "Slovenian", "Gujarati", "Latvian", "Italian", "Occitan", "Nepali", "Marathi", "Belarusian", "Serbian", "Luxembourgish", "Venetian", "Assamese", "Welsh", "Silesian", "Asturian", "Chhattisgarhi", "Awadhi", "Maithili", "Bhojpuri", "Sindhi", "Irish", "Faroese", "Hindi", "Punjabi", "Bengali", "Oriya", "Tajik", "Eastern Yiddish", "Lombard", "Ligurian", "Sicilian", "Friulian", "Sardinian", "Galician", "Catalan", "Icelandic", "Tosk Albanian", "Limburgish", "Dari", "Afrikaans", "Macedonian", "Sinhala", "Urdu", "Magahi", "Bosnian", "Armenian", "Chinese", "Burmese", "Arabic", "Hebrew", "Maltese", "Indonesian", "Malay", "Tagalog", "Cebuano", "Javanese", "Sundanese", "Minangkabau", "Balinese", "Banjar", "Pangasinan", "Iloko", "Waray", "Tamil", "Telugu", "Kannada", "Malayalam", "Turkish", "North Azerbaijani", "Northern Uzbek", "Kazakh", "Bashkir", "Tatar", "Thai", "Lao", "Finnish", "Estonian", "Hungarian", "Vietnamese", "Khmer", "Japanese", "Korean", "Georgian", "Basque", "Haitian", "Papiamento", "Kabuverdianu", "Tok Pisin", "Swahili"],
     "thinking": false,
     "toolCalling": true,
-    "huggingfaceUrl": "https://huggingface.co/NobodyWho/Qwen_Qwen3-0.6B-GGUF",
+    "huggingfaceUrl": "https://huggingface.co/unsloth/Qwen3.5-4B-GGUF",
     "parts": [
       {
         "url": "https://huggingface.co/unsloth/Qwen3.5-4B-GGUF/resolve/main/Qwen3.5-4B-Q4_K_M.gguf",
@@ -559,5 +559,71 @@
     ],
     "pipeline": "textGeneration",
     "tags": ["Needs big context size"]
+  },
+  {
+    "id": 19,
+    "name": "MiniCPM5",
+    "sizeGB": 1.56,
+    "parameterCountBillions": 2,
+    "author": "OpenBMB",
+    "family": "MiniCPM5",
+    "languages": ["English", "Chinese"],
+    "thinking": true,
+    "toolCalling": true,
+    "huggingfaceUrl": "https://huggingface.co/openbmb/MiniCPM5-2B-GGUF",
+    "parts": [
+      {
+        "url": "https://huggingface.co/openbmb/MiniCPM5-2B-GGUF/resolve/main/MiniCPM5-2B-Q4_K_M.gguf",
+        "fileName": "MiniCPM5-2B-Q4_K_M.gguf",
+        "type": "chat-model",
+        "sizeGB": 1.56
+      }
+    ],
+    "pipeline": "textGeneration",
+    "tags": ["Experimental"]
+  },
+  {
+    "id": 20,
+    "name": "Granite 4.2",
+    "sizeGB": 2.32,
+    "parameterCountBillions": 3,
+    "author": "IBM",
+    "family": "Granite 4.2",
+    "languages": ["English", "German", "Spanish", "French", "Japanese", "Portuguese", "Arabic", "Czech", "Italian", "Korean", "Dutch", "Chinese"],
+    "thinking": true,
+    "toolCalling": true,
+    "huggingfaceUrl": "https://huggingface.co/bartowski/granite-4.2-3b-GGUF",
+    "parts": [
+      {
+        "url": "https://huggingface.co/bartowski/granite-4.2-3b-GGUF/resolve/main/granite-4.2-3b-Q4_K_M.gguf",
+        "fileName": "granite-4.2-3b-Q4_K_M.gguff",
+        "type": "chat-model",
+        "sizeGB": 2.32
+      }
+    ],
+    "pipeline": "textGeneration",
+    "tags": ["New"]
+  },
+  {
+    "id": 21,
+    "name": "G9v3",
+    "sizeGB": 2.74,
+    "parameterCountBillions": 3,
+    "author": "AI9Stars",
+    "family": "G9v3",
+    "languages": ["English", "Chinese"],
+    "thinking": true,
+    "toolCalling": true,
+    "huggingfaceUrl": "https://huggingface.co/WhiskyAKM/G9v3-3B-GGUF",
+    "parts": [
+      {
+        "url": "https://huggingface.co/WhiskyAKM/G9v3-3B-GGUF/resolve/main/g9v3-3b-Q4_K_M.gguf",
+        "fileName": "g9v3-3b-Q4_K_M.gguf",
+        "type": "chat-model",
+        "sizeGB": 1.84
+      }
+    ],
+    "pipeline": "textGeneration",
+    "tags": ["Powerful"]
   }
 ]
