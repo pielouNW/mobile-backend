@@ -606,24 +606,24 @@
   },
   {
     "id": 22,
-    "name": "LFM2.5",
-    "sizeGB": 1.67,
-    "parameterCountBillions": 2.6,
-    "author": "Liquid AI",
-    "family": "LFM2.5",
-    "languages": ["English", "Arabic", "Chinese", "French", "Italian", "German", "Japanese", "Korean", "Portuguese", "Spanish", "Vietnamese", "Thai", "Indonesian", "Hindi", "Russian", "Polish" ],
+    "name": "NeoHorse 1",
+    "sizeGB": 2.71,
+    "parameterCountBillions": 4,
+    "author": "TokenRhythm",
+    "family": "NeoHorse 1",
+    "languages": ["English", "Chinese"],
     "thinking": true,
     "toolCalling": true,
-    "huggingfaceUrl": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF/tree/main",
+    "huggingfaceUrl": "https://huggingface.co/TokenRhythm/NeoHorse-1-4B-GGUF",
     "parts": [
       {
-        "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF/resolve/main/LFM2.5-2.6B-Q4_K_M.gguf",
-        "fileName": "LFM2.5-2.6B-Q4_K_M.gguf",
+        "url": "https://huggingface.co/TokenRhythm/NeoHorse-1-4B-GGUF/resolve/main/NeoHorse-1-4B-Q4_K_M.gguf",
+        "fileName": "NeoHorse-1-4B-Q4_K_M.gguf",
         "type": "chat-model",
-        "sizeGB": 1.67
+        "sizeGB": 2.71
       }
     ],
     "pipeline": "textGeneration",
-    "tags": ["Agentic capabilities"]
+    "tags": []
   }
 ]
