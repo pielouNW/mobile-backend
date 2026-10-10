@@ -668,6 +668,6 @@
       }
     ],
     "pipeline": "textGeneration",
-    "tags": ["Agentic capabilities"]
+    "tags": ["Agentic capabilities", "Recommended"]
   }
 ]
