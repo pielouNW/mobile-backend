@@ -669,5 +669,27 @@
     ],
     "pipeline": "textGeneration",
     "tags": ["Agentic capabilities", "Recommended"]
+  },
+  {
+    "id": 26,
+    "name": "LFM3",
+    "sizeGB": 1.1,
+    "parameterCountBillions": 1.7,
+    "author": "Liquid AI",
+    "family": "LFM3",
+    "languages": ["English", "Arabic", "Chinese", "French", "German", "Italian", "Japanese", "Korean", "Portuguese", "Spanish", "Vietnamese", "Thai", "Indonesian", "Hindi", "Russian", "Polish" ],
+    "thinking": true,
+    "toolCalling": true,
+    "huggingfaceUrl": "https://huggingface.co/LiquidAI/LFM3-1.7B-GGUF",
+    "parts": [
+      {
+        "url": "https://huggingface.co/LiquidAI/LFM3-1.7B-GGUF/resolve/main/LFM3-1.7B-Q4_K_M.gguf",
+        "fileName": "LFM3-1.7B-Q4_K_M.gguf",
+        "type": "chat-model",
+        "sizeGB": 1.1
+      }
+    ],
+    "pipeline": "textGeneration",
+    "tags": []
   }
 ]
