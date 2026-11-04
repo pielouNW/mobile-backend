@@ -243,7 +243,7 @@
   },
   {
     "id": 9,
-    "order": 2,
+    "order": 3,
     "name": "Granite 4.0 H",
     "sizeGB": 0.9,
     "parameterCountBillions": 1,
@@ -598,6 +598,7 @@
   },
   {
     "id": 26,
+    "order": 2,
     "name": "LFM3",
     "sizeGB": 1.1,
     "parameterCountBillions": 1.7,
