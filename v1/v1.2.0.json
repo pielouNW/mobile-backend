@@ -650,6 +650,7 @@
   },
   {
     "id": 28,
+    "order": 4,
     "name": "Gemma 4 E2B",
     "sizeGB": 2.5,
     "parameterCountBillions": 2.3,
