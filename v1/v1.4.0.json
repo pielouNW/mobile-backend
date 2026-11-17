@@ -692,5 +692,27 @@
     ],
     "pipeline": "textGeneration",
     "tags": ["Danish"]
-  }
+  },
+{
+  "id": 30,
+  "name": "EmbeddingGemma 2",
+  "sizeGB": 0.31,
+  "parameterCountBillions": 0.27,
+  "author": "Google",
+  "family": "EmbeddingGemma",
+  "languages": [],
+  "thinking": false,
+  "toolCalling": false,
+  "huggingfaceUrl": "https://huggingface.co/unsloth/embeddinggemma-2-GGUF",
+  "parts": [
+    {
+      "url": "https://huggingface.co/unsloth/embeddinggemma-2-GGUF/resolve/main/embeddinggemma-2-Q8_0.gguf",
+      "fileName": "embeddinggemma-2-Q8_0.gguf",
+      "type": "embedding-model",
+      "sizeGB": 0.31
+    }
+  ],
+  "pipeline": "featureExtraction",
+  "tags": ["Any language", "Recommended"]
+}
 ]
