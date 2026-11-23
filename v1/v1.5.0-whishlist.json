@@ -13,7 +13,7 @@
     "parts": [
       {
         "url": "https://huggingface.co/bartowski/granite-4.2-3b-GGUF/resolve/main/granite-4.2-3b-Q4_K_M.gguf",
-        "fileName": "granite-4.2-3b-Q4_K_M.gguff",
+        "fileName": "granite-4.2-3b-Q4_K_M.gguf",
         "type": "chat-model",
         "sizeGB": 2.32
       }

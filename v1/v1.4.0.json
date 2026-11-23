@@ -587,7 +587,7 @@
     "huggingfaceUrl": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF",
     "parts": [
       {
-        "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF/resolve/main/LFM2.5-2.6B-Q4_K_M.gguff",
+        "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B-GGUF/resolve/main/LFM2.5-2.6B-Q4_K_M.gguf",
         "fileName": "LFM2.5-2.6B-Q4_K_M.gguf",
         "type": "chat-model",
         "sizeGB": 1.67
