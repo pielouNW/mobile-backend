@@ -142,5 +142,11 @@
     "modelName": "EmbeddingGemma 2",
     "licenceType": "Apache 2.0",
     "url": "https://www.apache.org/licenses/LICENSE-2.0"
+  },
+  {
+    "id": 31,
+    "modelName": "Ternary Bonsai 2.5 27B",
+    "licenceType": "Apache 2.0",
+    "url": "https://huggingface.co/prism-ml/Ternary-Bonsai-2.5-27B-GGUF/blob/main/LICENSE"
   }
 ]
