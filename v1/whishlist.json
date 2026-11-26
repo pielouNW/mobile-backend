@@ -20,5 +20,27 @@
     ],
     "pipeline": "textGeneration",
     "tags": ["New"]
+  },
+  {
+    "id": 1,
+    "name": "Spark X2.6",
+    "sizeGB": 3.54,
+    "parameterCountBillions": 4,
+    "author": "SparkLLM",
+    "family": "Spark X2.6",
+    "languages": ["English", "Chinese"],
+    "thinking": true,
+    "toolCalling": true,
+    "huggingfaceUrl": "https://huggingface.co/XHToken/Spark-X2.6-4B-GGUF",
+    "parts": [
+      {
+        "url": "https://huggingface.co/XHToken/Spark-X2.6-4B-GGUF/resolve/main/Spark-X2.6-4B-Q4_K_M.gguf",
+        "fileName": "Spark-X2.6-4B-Q4_K_M.gguf",
+        "type": "chat-model",
+        "sizeGB": 3.54
+      }
+    ],
+    "pipeline": "textGeneration",
+    "tags": ["Agentic capabilities"]
   }
 ]
