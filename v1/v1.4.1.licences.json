@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "modelName": "Qwen3 0.6B",
+    "licenceType": "Apache 2.0",
+    "url": "https://huggingface.co/Qwen/Qwen3-0.6B/blob/main/LICENSE"
+  },
+  {
+    "id": 2,
+    "modelName": "Qwen3 4B",
+    "licenceType": "Apache 2.0",
+    "url": "https://huggingface.co/Qwen/Qwen3-4B/blob/main/LICENSE"
+  },
+  {
+    "id": 5,
+    "modelName": "Qwen3.5 0.8B",
+    "licenceType": "Apache 2.0",
+    "url": "https://huggingface.co/Qwen/Qwen3.5-0.8B/blob/main/LICENSE"
+  },
+  {
+    "id": 6,
+    "modelName": "LFM2.5 Audio",
+    "licenceType": "LFM Open License v1.0",
+    "url": "https://huggingface.co/LiquidAI/LFM2.5-Audio-1.5B/blob/main/LICENSE"
+  },
+  {
+    "id": 7,
+    "modelName": "Supertonic 3",
+    "licenceType": "OpenRAIL-M",
+    "url": "https://huggingface.co/Supertone/supertonic-3/blob/main/LICENSE"
+  },
+  {
+    "id": 8,
+    "modelName": "Ministral 3 Reasoning",
+    "licenceType": "Apache 2.0",
+    "url": "https://www.apache.org/licenses/LICENSE-2.0"
+  },
+  {
+    "id": 9,
+    "modelName": "Granite 4.0 H",
+    "licenceType": "Apache 2.0",
+    "url": "https://www.apache.org/licenses/LICENSE-2.0"
+  },
+  {
+    "id": 10,
+    "modelName": "Whisper Base",
+    "licenceType": "Apache 2.0",
+    "url": "https://www.apache.org/licenses/LICENSE-2.0"
+  },
+  {
+    "id": 12,
+    "modelName": "Silero VAD",
+    "licenceType": "MIT",
+    "url": "https://huggingface.co/onnx-community/silero-vad/blob/main/LICENSE"
+  },
+  {
+    "id": 14,
+    "modelName": "Bonsai 8B",
+    "licenceType": "Apache 2.0",
+    "url": "https://huggingface.co/prism-ml/Bonsai-8B-gguf/blob/main/LICENSE"
+  },
+  {
+    "id": 15,
+    "modelName": "Bonsai 4B",
+    "licenceType": "Apache 2.0",
+    "url": "https://huggingface.co/prism-ml/Bonsai-4B-gguf/blob/main/LICENSE"
+  },
+  {
+    "id": 16,
+    "modelName": "Granite 4.1",
+    "licenceType": "Apache 2.0",
+    "url": "https://www.apache.org/licenses/LICENSE-2.0"
+  },
+  {
+    "id": 17,
+    "modelName": "Qwen3.5 4B",
+    "licenceType": "Apache 2.0",
+    "url": "https://huggingface.co/Qwen/Qwen3.5-4B/blob/main/LICENSE"
+  },
+  {
+    "id": 18,
+    "modelName": "Nanbeige4.1",
+    "licenceType": "Apache 2.0",
+    "url": "https://www.apache.org/licenses/LICENSE-2.0"
+  },
+  {
+    "id": 19,
+    "modelName": "MiniCPM5",
+    "licenceType": "Apache 2.0",
+    "url": "https://www.apache.org/licenses/LICENSE-2.0"
+  },
+  {
+    "id": 21,
+    "modelName": "G9v3",
+    "licenceType": "Apache 2.0",
+    "url": "https://www.apache.org/licenses/LICENSE-2.0"
+  },
+  {
+    "id": 22,
+    "modelName": "NeoHorse 1",
+    "licenceType": "Apache 2.0",
+    "url": "https://huggingface.co/TokenRhythm/NeoHorse-1-4B/blob/main/LICENSE"
+  },
+  {
+    "id": 24,
+    "modelName": "Bonsai 27B",
+    "licenceType": "Apache 2.0",
+    "url": "https://huggingface.co/prism-ml/Bonsai-27B-gguf/blob/main/LICENSE.txt"
+  },
+  {
+    "id": 25,
+    "modelName": "LFM2.5",
+    "licenceType": "LFM Open License v1.0",
+    "url": "https://huggingface.co/LiquidAI/LFM2.5-2.6B/blob/main/LICENSE"
+  },
+  {
+    "id": 26,
+    "modelName": "LFM3",
+    "licenceType": "LFM Open License v1.0",
+    "url": "https://huggingface.co/LiquidAI/LFM3-1.7B/blob/main/LICENSE"
+  },
+  {
+    "id": 27,
+    "modelName": "Gemma 4 E2B (multimodal)",
+    "licenceType": "Apache 2.0",
+    "url": "https://ai.google.dev/gemma/docs/gemma_4_license"
+  },
+  {
+    "id": 28,
+    "modelName": "Gemma 4 E2B (text)",
+    "licenceType": "Apache 2.0",
+    "url": "https://ai.google.dev/gemma/docs/gemma_4_license"
+  },
+  {
+    "id": 29,
+    "modelName": "DFM Mimir v1.5",
+    "licenceType": "Apache 2.0",
+    "url": "https://huggingface.co/danish-foundation-models/DFM-Mimir-v1.5/blob/main/LICENSE"
+  },
+  {
+    "id": 30,
+    "modelName": "EmbeddingGemma 2",
+    "licenceType": "Apache 2.0",
+    "url": "https://www.apache.org/licenses/LICENSE-2.0"
+  },
+  {
+    "id": 31,
+    "modelName": "Spark X2.6 4B",
+    "licenceType": "Apache 2.0",
+    "url": "https://huggingface.co/XHToken/Spark-X2.6-4B/blob/main/LICENSE"
+  }
+]
